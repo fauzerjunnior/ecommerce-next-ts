@@ -9,8 +9,8 @@
     "lint": "eslint src --max-warnings=0",
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "sb": "start-storybook -s ./public -p 6006",
-    "build-sb": "build-storybook"
+    "sb": "start-storybook -s public -p 6006",
+    "build-sb": "build-storybook -s public"
   },
   "lint-staged": {
     "src/**/*": [
